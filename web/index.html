@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="screen,projection" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Project</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue darken-3">
+            <a href="#!" class="brand-logo">Simple</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+    </ul>
+    <div class="row">
+        <div class="container">
+            <table class="responsive-table" id="tbregistros">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Data Hora</th>
+                        <th>Placa</th>
+                        <th>Peso</th>
+                        <th>Número de Eixos</th>
+                        <th>Excesso de Peso</th>
+                        <th>Silueta</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="modalOpen" class="modal">
+        <div class="modal-content">
+            <h4>Exibição de Detalhes</h4>
+            <div class="row center-align">
+                <img class="center-align" id="img" src="https://t.tudocdn.net/143300?w=646&h=284">
+            </div>
+            <div class="row">
+                <strong>Data Hora</strong>
+                <span id="dthora"></span>
+            </div>
+            <div class="row">
+                <strong>Peso</strong>
+                <span id="peso"></span>
+            </div>
+            <div class="row">
+                <strong>Placa</strong>
+                <span id="placa"></span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <script type="text/javascript">
+        carregarItens();
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>

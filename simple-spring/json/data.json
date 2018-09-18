@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "dataTime" : "12/09/2018 14:35",
+    "mate": "XXX1233",
+    "total_weight": 5676,
+    "axle_number" : 4,
+    "overloaded": true,
+    "formFactor" : "A",
+    "sanpshot1": "image-1.jpg"
+  },
+  {
+    "id": 2,
+    "dataTime" : "11/09/2018 14:37",
+    "mate": "AAA3421",
+    "total_weight": 7876,
+    "axle_number" : 5,
+    "overloaded": false,
+    "formFactor" : "B",
+    "sanpshot1": "image-2.jpg"
+  },
+  {
+    "id": 3,
+    "dataTime" : "12/09/2018 14:35",
+    "mate": "XYZ1234",
+    "total_weight": 3652,
+    "axle_number" : 2,
+    "overloaded": true,
+    "formFactor" : "C",
+    "sanpshot1": "image-3.jpg"
+  },
+  {
+    "id": 4,
+    "dataTime" : "11/09/2018 13:35",
+    "mate": "XXX9999",
+    "total_weight": 9874,
+    "axle_number" : 7,
+    "overloaded": true,
+    "formFactor" : "D",
+    "sanpshot1": "image-4.jpg"
+  }
+
+
+
+]
